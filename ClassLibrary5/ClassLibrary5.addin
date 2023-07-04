@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>ClassLibrary5</Name>
+    <Assembly>ClassLibrary5.dll</Assembly>
+    <AddInId>AE54E97B-5F76-4CFD-B3E9-56274BFB02B0</AddInId>
+    <FullClassName>ClassLibrary5.Comamd_Split_Wall</FullClassName>
+    <VendorId>ADNP</VendorId>
+    <VendorDescription>Autodesk, Inc. www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
