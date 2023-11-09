@@ -36,7 +36,7 @@ namespace ClassLibrary5
         }
 
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
-        
+
 
                 //List<cls_Wall> sortwallsstandard = new List<cls_Wall>();
                 //cls_Wall obj = new cls_Wall();
@@ -45,22 +45,26 @@ namespace ClassLibrary5
                 //{
                 //    cls_Wall obwall = sortwallsstandard[index];
 
-                //    cls_Wall obwall = new cls_Wall();
-                //    obwall.Elementwall = element;
-                //    obwall.Line = line;
-                //    obwall.StartPoint = stPoint;
-                //    obwall.EndPoint = endpoint;
-                //    obwall.Obwall = pickedwall;
-                //    obwall.Height = walHeight;
-                //    obwall.Width = wallLength.ToString();
-                //    obwall.Name = element.Name;
-                //    obwall.Level = thinkness.ToString();
-                //    obwall.Number = (cls_Bien.ObSplitwall.Listwall.Count + 1).ToString();
-                //    obwall.Inner = mat.Materialcategory.ToString();
-                //    obwall.Solid = solid;
-                //    obwall.LstModelLine = lstline;
+        //    cls_Wall obwall = new cls_Wall();
+        //    obwall.Elementwall = element;
+        //    obwall.Line = line;
+        //    obwall.StartPoint = stPoint;
+        //    obwall.EndPoint = endpoint;
+        //    obwall.Obwall = pickedwall;
+        //    obwall.Height = walHeight;
+        //    obwall.Width = wallLength.ToString();
+        //    obwall.Name = element.Name;
+        //    obwall.Level = thinkness.ToString();
+        //    obwall.Number = (cls_Bien.ObSplitwall.Listwall.Count + 1).ToString();
+        //    obwall.Inner = mat.Materialcategory.ToString();
+        //    obwall.Solid = solid;
+        //    obwall.LstModelLine = lstline;
 
-                //    sortwallsstandard.Add(obwall);
+        //    sortwal        return Result.Succeeded;
+                }
+                catch (Exception ex)
+                {
+                 message = ex.Message;lsstandard.Add(obwall);
                 //}
 
                 //foreach (Element element in selectedElementIds)
